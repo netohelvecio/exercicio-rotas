@@ -11,4 +11,10 @@ export class ProfessorComponent implements OnInit {
 
   ngOnInit() {}
 
+  onClicked(evento: boolean){
+    if (evento == true){
+      alert('Clicou no Card');
+    }
+  }
+
 }
